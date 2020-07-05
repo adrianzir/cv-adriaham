@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding:0;
+  color:white;
+  box-sizing: border-box;
+  background-image: url("../img/programacion.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.article {
+  padding:3rem;
+  background-color: rgba(0, 0, 0, 0.884);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+background-color: #26296C;
+height: 25vh;
+text-align: center;
+margin:0;
+padding: 1rem;
+line-height: 1.6;
+vertical-align: center;
+}
+
+.header{
+  padding: 2em;
+  margin-bottom:2rem;
+}
+.header__title{
+  color: white;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+.article__title:hover{
+  font-size: 25px;
+  border: 1px solid yellow;
+  background-color: teal;
+  padding: 2px;
+}
+.pi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.article__list{
+  display: inline;
+  background-color: rgb(51, 255, 136);
+  color: black;
+  padding: 1rem;
+  line-height: 1.6;
+}
+.article__list:hover{
+  background-color: rgb(158, 233, 20);
+  border: 3px solid rgb(0, 128, 53);
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  transition-delay: 30ms;
+}
+.article__list > li{
+  list-style: none;
+}
+.pimg{
+  display: inline;
+  margin-left: auto;
+  border-left: white solid 1.5px;
+  padding-left: 2rem;
+  margin-left: 1em;
+}
+.article__image{
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.article__image:hover{
+  z-index: 1;
+  bottom: 20px;
+  width: 350px;
+  position: relative;
+  border-color: gold;
+  box-shadow: 20px 20px 50px gold; 
+
+}
+.studies{
+  padding: 2em 4em;
+  background-color: royalblue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.studies > h2, .footer__title{
+  font-size: 30px;
+  font-family: 'Noto Serif', serif;
+}
+.studies__items{
+  line-height: 1.6;
+}
+/*-------------------linnnnnnkkkkkssss--------------*/
+
+.studies__items > p >a{
+  text-decoration: none;
+  color: gold;
+}
+.studies__items > p >a:hover{
+  color: rgb(25, 0, 255);
+  background-color: gold;
+}
+.studies__items > p >a:focus{
+  color: crimson;
+}
+
+/*----jobbss----*/
+
+.jobs{
+  padding: 4em 2em;
+  background-color: rgb(16, 16, 17);
+  text-align: center;
+  line-height: 1.6;
+}
+.jobs__items{
+  text-align: center;
+  line-height: 200%;
+}
+.jobs__items > li{
+  list-style: none;
+}
+.footer__title{
+  margin: 16px ;
+  padding: 0;
+}
+
+@media screen and (max-width:570px){
+  .article {
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  .pimg{
+  display: inline;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+}
+
+
+
